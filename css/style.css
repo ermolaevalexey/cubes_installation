@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100&subset=latin,cyrillic-ext,cyrillic);
+
+body {
+	margin: 0;
+	font-family: Roboto; 
+	background: linear-gradient(to bottom, #7de8e0 0%,#20a091 100%);
+}
+
+canvas { 
+	width: 100%; 
+	height: 100% 
+}
+
+.dg li:not(.folder){
+	background: transparent;
+	border-color:#ffffff;
+}
+
+.logo {
+	position: absolute;
+    top: 5%;
+    left: 10%;
+    margin-left: -112px;
+    display: inline-block;
+    opacity: 1;
+    width: 314px;
+    height: 77px;
+    background: url(../img/logo-octabrain.svg) no-repeat;
+    background-size: cover;
+}
+
+.addObj {
+	position: absolute;
+    display: block;
+    right: 0;
+    top: 27%;
+    right: 4em;
+    padding: 1em;
+    background: #A52121;
+	font-weight:400;
+	text-decoration: none;
+	border-radius:5px;
+	box-shadow:0 3px 0 0 #6B0000;
+	transition: background 0.3s ease-in-out;
+	-webkit-transition: background 0.3s ease-in-out;
+	color:#ffffff;
+}
+
+.addObj:hover{
+	box-shadow:none;
+	background: #E80000;
+	transition: background 0.3s ease-in-out;
+	-webkit-transition: background 0.3s ease-in-out;
+}
+
+.addObj:active {
+	right: 5em;
+    font-size: 0.9em;
+    background: #E80000;
+    box-shadow: none;
+    transition: background 0.3s ease-in-out;
+	-webkit-transition: background 0.3s ease-in-out;
+}
+
+.main-desc {
+	position: absolute;
+    right: 1em;
+    top: 45%;
+    font-size: 0.7em;
+    box-shadow: 0 0 0 1px #ffffff;
+    padding: 1em;
+    color: #ffffff;
+}
+
+.dg .cr.number {
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+
+.dg .property-name{
+	color: #ffffff;
+	text-shadow: none;
+}
+
+.dg.main .close-button {
+	background: transparent;
+	color: #fff;
+	transition: background 0.3s ease-in-out;
+	-webkit-transition: background 0.3s ease-in-out;
+	box-shadow: inset 0 0 0 1px #ffffff;
+	border: 0;
+	text-shadow: none;
+}
+
+.dg.main .close-button:hover{
+	background: #A52121;
+	transition: background 0.3s ease-in-out;
+	-webkit-transition: background 0.3s ease-in-out;
+	box-shadow: inset 0 0 0 1px #ffffff;
+	border: 0;
+}
+
+.dg.main .close-button.drag {
+	background: transparent;
+	color: #fff;
+	transition: background 0.3s ease-in-out;
+	-webkit-transition: background 0.3s ease-in-out;
+	box-shadow: inset 0 0 0 1px #ffffff;
+	border: 0;
+}
+
+.dg .c .slider {
+	background: transparent;
+	box-shadow: 0 0 0 1px #ffffff;
+}
+
+.dg .c .slider:hover{
+	background:transparent;
+	box-shadow: 0 0 0 1px #ffffff;
+}
+
+.dg .c .slider-fg {
+	background: #ffffff;
+}
+
+.dg .c .slider-fg:hover {
+	background: #A52121;
+}
+
+.dg .c .slider:hover .slider-fg {
+	background: #A52121;
+}
+
+.dg .cr.number input[type=text] {
+	color: #ffffff;
+}
+
+.dg .c input[type=text] {
+	background: transparent;
+	box-shadow: 0 0 0 1px #ffffff;
+}
+
+
