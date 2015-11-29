@@ -72,6 +72,15 @@ canvas {
     color: #ffffff;
 }
 
+.description a {
+	color: #0090FF;
+	text-decoration:none;
+}
+
+.description a:hover {
+	text-decoration: underline;
+}
+
 .dg .cr.number {
 	border-left: 1px solid #ffffff;
 	border-right: 1px solid #ffffff;
